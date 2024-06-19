@@ -1,0 +1,79 @@
+.background-section-1 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./Assets/Stars 3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.background-section-2 {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./Assets/Jellyfish.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+
+.interests-section {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./Assets/Water\ Surface\ 2.jpg');
+}
+
+.interests-section {
+    padding: 80px 0;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #fff; /* Light text color */
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.interest-box {
+    background-color: #00040f; /* Slightly lighter background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.interest-box:hover {
+    transform: translateY(-5px);
+}
+
+.interest-box img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.interest-title {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #fff; /* Light text color */
+}
+
+.interest-description {
+    color: #ccc; /* Medium light text color */
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.btn-primary {
+    background-color: #00040f; /* Adjusted for dark theme */
+    border-color: #00040f; /* Adjusted for dark theme */
+}
+.btn-primary:hover {
+    background-color: #0D1237; /* Darker shade for hover */
+    border-color: #0D1237; /* Darker shade for hover */
+}
+.text-body-emphasis {
+    color: #FFFFFF; /* White text color */
+}
+
